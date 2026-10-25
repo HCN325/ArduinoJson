@@ -15,7 +15,7 @@ void setup() {
     continue;
 
   // Allocate the JSON document
-  JsonDocument doc;
+  JsonDocument doc;//创建新文档，准备装数据
 
   // JSON input string.
   const char* json =
